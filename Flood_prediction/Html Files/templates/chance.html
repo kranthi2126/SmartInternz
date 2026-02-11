@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Floods Prediction</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #dcdcdc;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .top-strip {
+            height: 20px;
+            background-color: #f2f2f2;
+            box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+        }
+
+        .main-container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #cfc9bf;
+            padding-bottom: 100px;
+        }
+
+        .navbar {
+            background-color: black;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            color: #00ff00;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            color: #00ff00;
+        }
+
+        .result-text {
+            text-align: center;
+            font-size: 22px;
+            margin-top: 100px;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="top-strip"></div>
+
+<div class="main-container">
+
+    <div class="navbar">
+        <h1>Floods Prediction</h1>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/predict">Predict Floods</a>
+        </div>
+    </div>
+
+    <div class="result-text">
+        possibility of severe flood
+    </div>
+
+</div>
+
+</body>
+</html>
